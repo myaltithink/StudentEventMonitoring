@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace StudentEventMonitoring
 {
-    public partial class AttendanceList : Form
+    public partial class Attendance : Form
     {
-        public AttendanceList()
+        public Attendance()
         {
             InitializeComponent();
-        }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            EventPage eventPage = new EventPage();
-            eventPage.Show();
-            this.Hide();
         }
     }
 }
